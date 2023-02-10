@@ -1,0 +1,58 @@
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap";
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #fff;
+  overflow-x: hidden;
+  font-family: poppins, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  padding-left: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+nav a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ffffff98;
+  text-decoration: none;
+}
+html {
+  background-color: #000;
+}
+
+div.searchbar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+div.searchbar {
+  display: block;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin: 5px 0;
+}
